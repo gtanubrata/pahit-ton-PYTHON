@@ -60,7 +60,7 @@ def ganjil_genap():
 
 def reset():
     storage.clear()
-    print("Ayo coba lagi")
+    print("Silahkan isi list lagi..")
 
 #
 #
@@ -97,5 +97,5 @@ while loop:
         print("Terima kasih!")
 
     else:
-            print("Salah input, coba lagi :)")
+        print("Salah input, masukkan 1-8 :)")
 
