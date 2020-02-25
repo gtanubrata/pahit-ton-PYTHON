@@ -52,7 +52,7 @@ while play:
         else:
             rotate_counterclockwise()
         print_matrix()
-        print(f"Putaran ke-{count}")
+        print(f"Putaran ke-{i+1}")
 
     play_again = input("Lagi? (y/n): ")
     if play_again == "y":
@@ -63,3 +63,5 @@ while play:
     else:
         print("Terima kasih!")
         play = False
+
+
